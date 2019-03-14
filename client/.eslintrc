@@ -1,0 +1,6 @@
+{
+  "extends": ["@deity/eslint-config-falcon"],
+  "env": {
+    "serviceworker": true
+  }
+}

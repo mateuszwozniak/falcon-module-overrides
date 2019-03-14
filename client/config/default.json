@@ -1,0 +1,16 @@
+{
+  "__typename": "ClientConfig",
+  "serverSideRendering": true,
+  "i18n": {
+    "__typename": "I18nConfig",
+    "ns": ["translations"],
+    "whitelist": ["en", "nl"]
+  },
+  "apolloClient": {
+    "__typename": "ApolloClientConfig",
+    "httpLink": {
+      "__typename": "ApolloClientConfigHttp",
+      "uri": "http://localhost:4000/graphql"
+    }
+  }
+}

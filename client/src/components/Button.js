@@ -4,16 +4,26 @@ export const Button = themed({
   tag: 'button',
   defaultTheme: {
     button: {
-      fontSzie: 'xl',
-      m: 'sm',
-      css: {
-        border: '1px solid red',
-        background: 'yellow',
-        color: 'black',
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      fontSize: 'md',
+      mx: 'xs',
+      css: ({ theme }) => ({
+        border: 'none',
+        background: theme.colors.secondaryDark,
+        color: theme.colors.primaryLight,
         ':hover': {
-          background: 'green'
+          background: theme.colors.primaryLight,
+          color: 'white',
+          svg: {
+            stroke: 'white '
+          }
+        },
+        svg: {
+          stroke: theme.colors.primaryLight
         }
-      }
+      })
     }
   }
 });

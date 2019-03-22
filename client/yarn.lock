@@ -894,10 +894,10 @@
     typescript "3.2.1"
     typescript-eslint-parser "^21.0.2"
 
-"@deity/falcon-client@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@deity/falcon-client/-/falcon-client-0.3.1.tgz#203a9230fa5674902431636070aac96f9af375d2"
-  integrity sha512-wxm5ND77fVD4k0M8Foibmuyg9iCX1URGZ7EhZvjbceKJt8Z2rhe2zNhLqeLpD1NwU5mHYYYNLBKjk8rXle7YPg==
+"@deity/falcon-client@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@deity/falcon-client/-/falcon-client-0.3.2.tgz#934aa25517eed0a2d50f61f040229e4f4944ce8a"
+  integrity sha512-eEFobNqzb2UCToLgVcwiv4eiFSZRJ20IpClhNUypdvvx7f6hUEi2KkzSYLwu2GKHSi+HQZrm1VSHWfUlyAlZSw==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/polyfill" "7.2.5"
@@ -972,16 +972,15 @@
     webpack "4.24.0"
     webpack-bundle-analyzer "^3.0.2"
     webpack-dev-server-speedy "^3.1.1"
-    webpack-node-externals "^1.7.2"
     webpack-virtual-modules "^0.1.10"
     webpackbar "^2.4.0"
     whatwg-fetch "^3.0.0"
     workbox-build "^3.5.0"
 
-"@deity/falcon-ecommerce-uikit@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@deity/falcon-ecommerce-uikit/-/falcon-ecommerce-uikit-0.3.1.tgz#e2979dbfeb2330bb86825cca468bf1f5685acfd2"
-  integrity sha512-mOAr6XuRmKJ5etyTFkwsHvpgVRzycf5iN10Xd4a2+xkcxSCVw29hV9qGjzO8EbCtyeobfo7nx+r7OH3sIXHDjA==
+"@deity/falcon-ecommerce-uikit@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@deity/falcon-ecommerce-uikit/-/falcon-ecommerce-uikit-0.3.3.tgz#7d31bcd30e83011f558f73caeb7c2828916641cb"
+  integrity sha512-yFgW9vTZmuxm9CZLe+h44DYBDxBYhe49si2PiaHu3cA2URol0rg/8salLC4NuwglUMXB+afmkF/5I7VYr1a3gQ==
   dependencies:
     "@babel/runtime" "7.3.1"
     formik "^1.3.1"
@@ -1739,7 +1738,7 @@ apollo-client@2.5.1:
     tslib "^1.9.3"
     zen-observable "^0.8.0"
 
-apollo-link-dedup@1.0.15, apollo-link-dedup@^1.0.0:
+apollo-link-dedup@^1.0.0:
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/apollo-link-dedup/-/apollo-link-dedup-1.0.15.tgz#028148f1028e806a9ab2f4abf3bde9dc292565e9"
   integrity sha512-14/+Tg7ogcYVrvZa8C7uBQIvX2B/dCKSnojI41yDYGp/t2eWD5ITCWdgjhciXpi0Ij6z+NRyMEebACz3EOwm4w==
@@ -3778,10 +3777,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-eject-ts@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/eject-ts/-/eject-ts-0.1.1.tgz#c1a559d01267a058198bee6e9c491d49a0efa9e6"
-  integrity sha512-naXSdLgm/YtPgJr8kGwP9LXnHJRRDqf/9oLO8AoQ40SLXXp4OC4eEvwtQ5I2FN7edpxAs5BKkNnGZKpIVD6jIw==
+eject-ts@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/eject-ts/-/eject-ts-0.1.2.tgz#8224defa67515c4b76b1732565fa74c73656341d"
+  integrity sha512-wLfd87haL5X+7Se1CHd8ZmKktH+znvBxnbo2QuJsc9nHlGDSBK8ShZkmN9EO7qRxc9FMtxzxCY1GocwWX18rCg==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-syntax-class-properties" "^7.2.0"
@@ -5304,10 +5303,10 @@ hide-powered-by@1.0.0:
   resolved "https://registry.yarnpkg.com/hide-powered-by/-/hide-powered-by-1.0.0.tgz#4a85ad65881f62857fc70af7174a1184dccce32b"
   integrity sha1-SoWtZYgfYoV/xwr3F0oRhNzM4ys=
 
-history@^4.8.0-beta.0:
-  version "4.8.0-beta.0"
-  resolved "https://registry.yarnpkg.com/history/-/history-4.8.0-beta.0.tgz#8b48c1354ac290341c0d73dd33c763bd140531f4"
-  integrity sha512-LDjPtGgAFDO3lZ+bumN67k0R3GWvUBLLgRJpFU2mnJ1w+D5rEbiZC1c37yPla7tx/dUzVfznt5Rmttnz0MvGdA==
+history@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/history/-/history-4.9.0.tgz#84587c2068039ead8af769e9d6a6860a14fa1bca"
+  integrity sha512-H2DkjCjXf0Op9OAr6nJ56fcRkTSNrUiv41vNJ6IswJjif6wlpZK0BTfFbi7qK9dXLSYZxkq5lBsj3vUjlYBYZA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     loose-envify "^1.2.0"
@@ -9314,27 +9313,27 @@ react-powerplug@1.0.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-react-router-dom@4.4.0-beta.6:
-  version "4.4.0-beta.6"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.4.0-beta.6.tgz#0bec50c8a4276a555b5f1159bb94e7b6fbb73699"
-  integrity sha512-+8N3Z6Ys6NfE6Oge4HbBzyGBWPOtWEAVFKotP2KUdyFsDfhnGgKvSJA+MxRvkTarPG2sBFQiZnyJDawJJyC/qA==
+react-router-dom@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.0.0.tgz#542a9b86af269a37f0b87218c4c25ea8dcf0c073"
+  integrity sha512-wSpja5g9kh5dIteZT3tUoggjnsa+TPFHSMrpHXMpFsaHhQkm/JNVGh2jiF9Dkh4+duj4MKCkwO6H08u6inZYgQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    history "^4.8.0-beta.0"
+    history "^4.9.0"
     loose-envify "^1.3.1"
     prop-types "^15.6.2"
-    react-router "^4.4.0-beta.6"
+    react-router "5.0.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router@^4.4.0-beta.6:
-  version "4.4.0-beta.7"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.4.0-beta.7.tgz#a60e0f97107dbb9005596a23cccf8779382425a6"
-  integrity sha512-9GdNnXq0tISw4LTKzjBWJ662nN2FqVr5lHi7YkxHJ3bHMSBjp3QiacsVwzeiSjo/KC+ZJcbQatja+rfAp1WHRw==
+react-router@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.0.0.tgz#349863f769ffc2fa10ee7331a4296e86bc12879d"
+  integrity sha512-6EQDakGdLG/it2x9EaCt9ZpEEPxnd0OCLBHQ1AcITAAx7nCnyvnzf76jKWG1s2/oJ7SSviUgfWHofdYljFexsA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     create-react-context "^0.2.2"
-    history "^4.8.0-beta.0"
+    history "^4.9.0"
     hoist-non-react-statics "^3.1.0"
     loose-envify "^1.3.1"
     path-to-regexp "^1.7.0"
@@ -11244,11 +11243,6 @@ webpack-log@^1.0.1, webpack-log@^1.1.2:
     log-symbols "^2.1.0"
     loglevelnext "^1.0.1"
     uuid "^3.1.0"
-
-webpack-node-externals@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/webpack-node-externals/-/webpack-node-externals-1.7.2.tgz#6e1ee79ac67c070402ba700ef033a9b8d52ac4e3"
-  integrity sha512-ajerHZ+BJKeCLviLUUmnyd5B4RavLF76uv3cs6KNuO8W+HuQaEs0y0L7o40NQxdPy5w0pcv8Ew7yPUAQG0UdCg==
 
 webpack-sources@^1.1.0, webpack-sources@^1.3.0:
   version "1.3.0"

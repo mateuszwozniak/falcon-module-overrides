@@ -53,10 +53,10 @@
     util "^0.11.0"
     winston "^3.0.0"
 
-"@deity/falcon-magento2-api@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@deity/falcon-magento2-api/-/falcon-magento2-api-0.3.1.tgz#058f521999b0bc7d8a47b3ea6a6ad56b92f1f994"
-  integrity sha512-gESmSw3fak9/+wm1tbcR+Nu2WgpiUgxWIyxErgPudFWValvd7Onm0zPgvqdYj7ZsXziTJNhMSzv9BDIamIeEtA==
+"@deity/falcon-magento2-api@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@deity/falcon-magento2-api/-/falcon-magento2-api-0.3.2.tgz#009bdaf5d1e303917dcd44892000779a4f3abb92"
+  integrity sha512-+LJKzhE9JZYgHVYir3WebV/7mc+AkZdJu6ossQpuC65gk3kDaIH7UW8NZQ8VIbilAXC3rksFrlZ6Twiut3Wyog==
   dependencies:
     "@deity/falcon-errors" "^0.1.1"
     "@deity/falcon-logger" "^0.1.1"
@@ -106,10 +106,10 @@
     koa-session "5.10.0"
     lodash "4.17.11"
 
-"@deity/falcon-shop-extension@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@deity/falcon-shop-extension/-/falcon-shop-extension-0.3.1.tgz#a7b2adfc2a3a6aa3d8ddebd7d7814b3d1125ae49"
-  integrity sha512-kfwqtdMeEHJEUieUBj/HOnMq9HiueBxVBil3h+WP8Mj5smhp8CqpRRe1qYUxA/dXLMMaJQi/v2tk2cSHiWLrmw==
+"@deity/falcon-shop-extension@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@deity/falcon-shop-extension/-/falcon-shop-extension-0.3.2.tgz#c770d93afdc9100363447313fca6ebd39bf157de"
+  integrity sha512-RTl7+PQdNjumJcYVlSmC2t2t/BzyU4quJ2JFpFLJZig505zbLhrsSHvCO1nmQnln2pHAHTKWj0aN9ZW9TnvY5g==
   dependencies:
     "@deity/falcon-server-env" "^0.1.2"
     graphql-tools "4.0.4"
